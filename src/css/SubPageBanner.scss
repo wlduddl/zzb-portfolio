@@ -1,0 +1,72 @@
+.SubBanner {
+
+    .inner {
+        .inner1200 {
+            .Banner {
+                .button {
+                    position: fixed; display: flex; gap: 10px; right: calc(((100% - 300px) - 1200px)/2); top: 40px;
+
+                    a { padding: 12px 29px; background: #333; border-radius: 30px; color: white; font-weight: 500; }
+                    .git { color: white; padding: 12px 29px; font-size: 15px; background: #333; }
+                    .btn7 { background: #ffce26; }
+                    .btn8 { background: #925a32; }
+                    .btn9 { background: #2333ee; }
+                    .btn10 { background: #e30a1e; }
+                    .btn11 { background: #0031fc; }
+                    .btn12 { background: #8e6b4a; }
+                    .btn13 { background: #0031fc; }
+                    .btn14 { background: #745543; }
+                    i { cursor: pointer; font-size: 20px; padding: 10px; background: rgba($color: black, $alpha: 0.2); border-radius: 50%; color: white; }
+                }
+                .con {
+                    display: flex; padding-top: 120px; margin: 0 0 50px 0;
+
+                    div { width: 50%; }
+                    h2 { width: 50% ; font-size: 20px ; font-weight: 600; color: black; margin: 0 0 10px 0; }
+                    span { display: inline-block; margin: 0 0 20px 0; font-weight: 600; }
+                    p { width: 50%; white-space: pre; }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:768px) {
+    .SubBanner {
+
+        .inner {
+            .inner1200 {
+                .Banner {
+                    .button {
+                        position: fixed; display: flex; gap: 10px; 
+                        left: auto; right:auto; top:auto; bottom: 20px;
+    
+                        a { padding: 10px 20px; background: #333; border-radius: 30px; color: white; font-weight: 500; font-size: 15px; }
+                        i{ position: fixed; 
+                            left: auto; right:15px; top:auto; bottom:20px; 
+                            
+                            cursor: pointer; font-size: 15px; padding: 10px; background: rgba($color: black, $alpha: 0.2); border-radius: 50%; color: white;}
+                        .git { color: white; padding: 10px 20px; font-size: 15px; background: #333; }
+                        .btn7 { background: #ffce26; }
+                        .btn8 { background: #925a32; }
+                        .btn9 { background: #2333ee; }
+                        .btn10 { background: #e30a1e; }
+                        .btn11 { background: #0031fc; }
+                        .btn12 { background: #8e6b4a; }
+                        .btn13 { background: #0031fc; }
+                     
+                    }
+                    .con {
+                        display: flex; flex-direction: column; padding-top: 50px; margin: 0 0 50px 0; 
+    
+                        div { width: 100%; }
+                        h2 { width: 100% ; font-size: 20px ; font-weight: 600; color: black; margin: 0 0 10px 0; }
+                        span { display: inline-block; margin: 0 0 30px 0; font-weight: 600; }
+                        p { width: 100%; white-space: unset; font-size: 14px; word-break: keep-all; margin: 0 0 5px 0;  }
+                    }
+                }
+            }
+        }
+    }
+  }

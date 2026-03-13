@@ -1,0 +1,17 @@
+.Oncheon {
+    .img01 { margin-right: 0; margin-left: calc((100vw - 1510px)/2); margin-bottom: 0 0 100px 0; width: calc(1200px + ((100vw - 1510px)/2)); }
+    .overview {
+        background: url(../../public/assets/img/sub02_02.png) no-repeat fixed center/cover; color: white;
+
+        h2 { color: white; }
+        p { margin: 0; }
+    }
+    .image {
+        display: flex;
+
+        img { width: 50%; }
+    }
+}
+@media(max-width:768px) {
+    	.inner_sec { padding: 50px 0; }
+}

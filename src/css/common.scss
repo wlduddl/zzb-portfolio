@@ -1,0 +1,47 @@
+.wrap { overflow-x: hidden; overflow-y: hidden !important; }
+.inner { width: calc(100% - 300px); margin: 0 0 0 300px; padding: 0; }
+.inner1200 { width: 1200px; margin: 0 auto; }
+.banner { margin: 0 0 100px 0; height: 600px; object-fit: cover; width: 100%; object-position: center 20%;}
+.subcon {
+  h2 { font-size: 30px; font-weight: 600; color: black; margin: 0 0 20px 0; }
+  p { margin: 0 0 50px 0; white-space: pre; }
+  h3 { font-size: 20px; font-weight: 600; color: black; margin: 0 0 20px 0; }
+  strong { margin: 0 0 10px 0; white-space: pre; display: inline-block; line-height: 1.45; }
+  .code { margin: 0 0 70px 0; }
+  .bottom {
+    padding: 100px 0;
+
+    h3 { font-size: 20px; font-weight: 500; color: black; margin: 0 0 5px 0; }
+    p { font-size: 15px; margin: 0 0 20px 0; }
+    strong { display: inline-block; font-size: 14px; display: inline-block; margin: 0 0 5px 0; }
+    small { font-size: 14px; }
+  }
+}
+.inner_sec { padding: 100px 0; }
+@media(max-width:768px) {
+  .wrap { overflow-x: hidden; overflow-y: hidden !important; }
+  .inner { width: auto; margin: 0; padding: 0; }
+  .inner1200 { width: auto; margin: 0 15px;
+    .img { display: flex; flex-direction: column; gap: 10px; } }
+  .subcon {
+    h2 { font-size: 30px; font-weight: 600; color: black; margin: 0 0 20px 0; }
+    p { margin: 0 0 50px 0; white-space: pre; }
+    h3 { font-size: 20px; font-weight: 600; color: black; margin: 0 0 20px 0; }
+    strong { margin: 0 0 10px 0; white-space: pre; display: inline-block; line-height: 1.45; }
+    .code { margin: 0 0 70px 0; }
+    .bottom {
+      padding: 100px 0;
+
+      h3 { font-size: 20px; font-weight: 500; color: black; margin: 0 0 5px 0; }
+      p { font-size: 15px; margin: 0 0 20px 0; }
+      strong { display: inline-block; font-size: 14px; display: inline-block; margin: 0 0 5px 0; }
+      small { font-size: 14px; }
+    }
+  }
+  .inner_sec { padding: 100px 0; }
+  .banner { margin: 0 0 50px 0; object-fit: cover; height: 250px; }
+  .Con {
+    h2, h3 { font-size: 20px; margin: 0 0 10px 0; }
+    p, strong { width: 100%; white-space: unset; font-size: 14px; word-break: keep-all; margin: 0 0 20px 0; }
+  }
+}

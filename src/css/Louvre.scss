@@ -1,0 +1,18 @@
+.Louvre {
+  .inner1200 {
+    .banner { margin: 0 0 50px 0; }
+    .img01 { margin: 0 0 10px 0; }
+    .img02 { margin: 0 0 100px 0; }
+  }
+}
+@media(max-width:768px) {
+
+  .Louvre {
+
+    .inner1200 {
+
+      .img01 { margin: 0 0 10px 0; }
+      .img02 { margin: 0 0 100px 0; }
+    }
+  }
+}

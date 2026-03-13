@@ -1,0 +1,16 @@
+.Prime {
+	.img01 { margin-right: 0; margin-left: calc((100vw - 1510px)/2); width: calc(1200px + ((100vw - 1510px)/2)); }
+
+	.charts, .blueprints, .keyidea{background: #f9f9f9;}
+	
+}
+
+@media(max-width:768px) {
+	.Prime {
+		.img01 { margin: 0 15px; width: auto; }
+
+		.charts, .blueprints, .keyidea{background: #f9f9f9;}
+		.inner_sec{padding: 50px 0;}
+	}
+
+  }

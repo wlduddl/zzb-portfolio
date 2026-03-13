@@ -1,0 +1,47 @@
+@use'common';
+
+.MainWrap {
+	background: black;
+	.Main {
+
+
+		.MainInner {
+			margin: 0 0 0 310px; padding: 10px 10px 100px 0;
+
+			.list {
+				display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+
+				li {
+			position: relative;
+
+			.thumbdes {
+				z-index: 1; position: absolute; bottom: 40px; left: 40px; opacity: 0; color: white;
+
+				h2 { font-size: 20px; font-weight: 700; margin: 0 0 5px 0;}
+				p{font-size: 14px;}
+			}
+		}
+				li:hover img{ filter: brightness(0.6); transition: 0.5s;}
+				li:hover .thumbdes{opacity: 1; }
+				
+
+			}
+		}
+	}
+}
+@media(max-width:768px) {
+
+	.MainWrap {
+		background: black;
+		.Main {
+	
+	
+			.MainInner {
+				margin: 0 0 50px 0; padding: 10px 10px;
+	
+				.list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px;
+					.thumbdes {display: none; }
+			}
+		}
+	}
+}}

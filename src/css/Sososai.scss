@@ -1,0 +1,23 @@
+.Sososai {
+    .img01 { margin-left: 0; margin-right: calc((100vw - 1510px)/2); width: calc(1200px + ((100vw - 1510px)/2)); }
+    .name {
+        background: url(../../public/assets/img/sub03_02.png)no-repeat center center/cover;
+
+        .subcon {
+            color: white;
+
+            h2 { color: white; }
+            p{margin: 0;}
+        }
+    }
+    .image{display: flex;
+    img{width: 50%;}}
+}
+
+@media(max-width:768px) {
+    .Sososai {
+        .img01 { margin-left: 0; margin-right: 15px; width: calc(100% - 15px); }
+        .inner_sec { padding: 50px 0; }
+       
+    }
+}
