@@ -1,0 +1,10 @@
+.Mssox {
+    .img01 { margin-left: 0; margin-right: calc((100vw - 1510px)/2); width: calc(1200px + ((100vw - 1510px)/2)); }
+}
+
+@media(max-width:768px) {
+    .Mssox {
+        .img01 { margin-left: 0; margin-right: 15px; width: calc(100% - 15px); }
+    }
+  
+}

@@ -13,12 +13,12 @@ const Footer = () => {
                         </Link>
                     </h1>
                     <h1>
-                        <a href="https://open.kakao.com/o/sSuaUfof" target='_blank'>
+                        <a href="https://open.kakao.com/o/sk8q6hli" target='_blank'>
                             <img src={process.env.PUBLIC_URL + '/assets/img/logo02.svg'} alt="" />
                         </a>
                     </h1>
                 </div>
-                <p>Service Designer & Front-End Developer</p>
+                <p>Product Manager & Front-End Developer</p>
 
                 <div className="contact">
                     <a href="tel:010-3657-8032">+82 10 3657 8032</a>

@@ -1,0 +1,16 @@
+.Ani {
+
+  .inner1200 {
+    .img {
+      border-radius: 10px; overflow: hidden;
+    }
+  }
+}
+@media(max-width:768px) {
+  .Ani {
+
+    .inner1200 {
+      .img { display: flex; flex-direction: column; gap: 10px; }
+    }
+  }
+}

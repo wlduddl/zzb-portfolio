@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './css/reset.css';
+
 import { BrowserRouter } from 'react-router-dom';
 import Scroll from './components/Scroll';
 
