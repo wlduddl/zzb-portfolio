@@ -21,13 +21,13 @@ const Footer = () => {
                 <p>Service Designer & Front-End Developer</p>
 
                 <div className="contact">
-                    <a href="tel:010-7578-8546">+82 10 7578 8546</a>
-                    <a href="mailto:kimjay.824@gmail.com">kimjay.824@gmail.com</a>
+                    <a href="tel:010-3657-8032">+82 10 3657 8032</a>
+                    <a href="mailto:wldud8032@naver.com">wldud8032@naver.com</a>
                 </div>
                 <div className='copy'>
                     <span>본 페이지는 개인 포트폴리오용으로 제작되었습니다.</span>
                     <span>Chrome PC 화면에 최적화된 홈페이지입니다.</span>
-                    <span>© 2022-2024 Jay. All Rights Reserved.</span>
+                    <span>© 2022-2026 Jiyoung. All Rights Reserved.</span>
                 </div>
 
             </div>

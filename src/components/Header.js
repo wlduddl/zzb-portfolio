@@ -13,8 +13,9 @@ const Header = () => {
                     </Link>
                 </h1>
                 <div className="intro">
-                    <p>Hello,👋 I'm Jay.<br />
-                        I’m a <span>Service Designer & Front-End Developer.</span><br /> I always try to craft new experiences through challenges and immersion.
+                    <p>Hello,👋 I'm Jiyoung.<br />
+                        I’m a <span>Web Designer & Publisher.</span><br />
+                        I turn ideas into responsive and effective web experiences through thoughtful design and precise publishing.
                     </p>
                 </div>
                 <nav>
